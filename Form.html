@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+    body {
+        background-color: lightcoral;
+        font-size:18px;
+    }
+    form {
+        background-color: whitesmoke;
+        padding: 50px;
+        margin: 20px 80px;
+        width: 500px;
+    
+
+    }
+   /* input {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        float: right;
+
+    } */
+
+    .button {
+        background-color: rgba(0, 120, 0, 0);
+        height: 40px;
+        color: red;
+        text-transform: uppercase;
+        font-size: large;
+        border: 2px solide green;
+    }
+
+    </style>
+
+
+</head>
+<body>
+
+    <form>
+        <h1>Registration From</h1>
+        <label for="fullName">Full Name :</label>
+        <input type="text" placeholder="Full Name" id="fullname">
+        <br><br>
+
+        <label for="mail">Email</label>
+        <input type="email" placeholder="Email Address" id="mail">
+        <br><br>
+
+        <lable for="pass">Password</lable>
+        <input type="password" id="pass">
+        <br><br>
+
+        <lable for="DOB">Enter your D.O.B.</lable>
+        <input type="date" id="DOB" min="1990-01-01">
+        <br><br>
+
+        <lable for="Address">Enter the Address</lable>
+        <textarea id="address" rows="10" cols="50"></textarea>
+        <br><br> 
+
+        <lable for="city">City</lable>
+        <input for="text" id="city">
+        <br><br>
+        
+        <lable for="state">State</lable>
+        <select id="state">
+
+        <option>Bihar</option>
+        <option>Andhra Pradesh</option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Chhattisgarh</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Haryana</option>
+        <option>Haryana</option>
+        <option>Jammu and Kashmir</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Meghalaya</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Odisha</option>
+        <option>Punjab</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura</option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>West Bengal</option>
+
+
+
+        </select>
+
+
+        <br>  <br>
+
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender">
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="gender">
+        <lable for="female">Female</lable>
+        <br><br>
+
+        <
+
+    </select>
+
+    </form>
+</body>
+</html>
